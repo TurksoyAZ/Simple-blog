@@ -1,0 +1,41 @@
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+
+  .firstHomeArtticle {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../Components/img/lev2_2_js-reactjs_router_simple-blog.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .secondHomeArtticle {
+    padding-top: 10rem;
+    padding-left: 10rem;
+
+    h1 {
+      font-size: 2vw;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .linkHome {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5vw;
+    }
+
+    button {
+      padding: 10px 10px;
+      background-color: transparent;
+      border: 1.5px solid white;
+      border-radius: 10px;
+    }
+
+    button:hover {
+      box-shadow: #fff 0 0 10px;
+    }
+  }
+}
